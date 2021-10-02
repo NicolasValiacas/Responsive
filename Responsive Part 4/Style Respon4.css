@@ -1,0 +1,39 @@
+@media only screen and (max-width: 300px){
+    body {
+        background-color: red;
+        font-size: 16px;
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 301px) and (max-width: 768px){
+    body {
+        background-color: greenyellow;
+        font-size: 24px;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    body {
+        background-color: blue;
+        font-size: 36px;
+        display: inline;
+    }
+}
+
+#small{
+     width: 66.66%;
+}
+#medium{
+    width: 33.33%;
+}
+#large{
+    width: 100%;
+}
+
+#small, #medium, #large{
+    box-sizing: border-box;
+    padding: 2px;
+    border: 1px solid purple ;
+    background-color: violet;
+}
